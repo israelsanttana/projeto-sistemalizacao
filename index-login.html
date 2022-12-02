@@ -9,7 +9,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./styles.css" />
-    <title>Projeto</title>
+    <title>Login</title>
   </head>
   <body>
     <div
@@ -17,7 +17,9 @@
     >
       <div class="p-5 border rounded-3">
         <div class="row justify-content-center">
-          <div class="rounded-circle bg-secondary avatar"></div>
+          <div class="rounded-circle avatar">
+            <img src="./user.png" width="85" height="85" />
+          </div>
         </div>
         <form class="d-flex flex-column">
           <div class="mb-4 d-flex flex-column align-items-center mt-4">
@@ -30,17 +32,18 @@
             />
           </div>
           <div class="mb-4 d-flex flex-column align-items-center">
-            <label for="exampleInputPassword1" class="form-label"
-              >Password</label
-            >
+            <label for="exampleInputPassword1" class="form-label">Senha</label>
             <input
               type="password"
               class="form-control"
               id="exampleInputPassword1"
             />
           </div>
-          <button type="submit" class="btn btn-primary">Submit</button>
+          <button type="submit" class="btn btn-secondary mt-3">Entrar</button>
         </form>
+        <p class="h6 mt-5 d-flex flex-column align-items-center forgot">
+          <u>Esqueceu a Senha?</u>
+        </p>
       </div>
     </div>
 

@@ -1,4 +1,13 @@
 .avatar {
-  width: 80px;
-  height: 80px;
+  width: 100px;
+  height: 100px;
+}
+
+.forgot {
+  font-size: 12px;
+}
+
+.forgot:hover {
+  cursor: pointer;
+  color: red;
 }
