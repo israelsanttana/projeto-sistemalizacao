@@ -11,3 +11,12 @@
   cursor: pointer;
   color: red;
 }
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+a:hover {
+  color: #fff;
+}
